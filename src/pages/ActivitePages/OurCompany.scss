@@ -1,0 +1,60 @@
+@import "../../styles/global.scss";
+
+.ourCompanySection {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+
+  .sectionContent {
+      .title{
+        font-weight: 600;
+        font-size: 39px;
+      }
+    .list {
+        padding: 15px 0;
+      li {
+        list-style: none;
+
+
+        span{
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 20px;
+            padding-left: 8px;
+        }
+      }
+    }
+    .ourResults {
+        display: flex;
+        align-items: center;
+      .results {
+        li {
+          list-style: none;
+          margin-right: 10px;
+          h1{
+              position: relative;
+              color: $mainColor;
+              font-size: 51px;
+              font-weight: 400;
+              span{
+                  font-size: 22px;
+                  position: absolute;
+                  top: 0;
+              }
+          }
+
+          &:nth-child(2){
+              font-size: 20px;
+              color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+  }
+
+  .sectionImg {
+      padding: 30px;
+  }
+}

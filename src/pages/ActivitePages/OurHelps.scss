@@ -1,0 +1,110 @@
+@import '../../styles/global.scss';
+.servicesSection {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 70px;
+
+  .ourServices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-top: 90px;
+
+    .box1 {
+      .boxContent {
+        width: 280px;
+        height: 250px;
+        border: 1px solid #f1f1f1;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+        margin-bottom: 10px;
+
+        img {
+          width: 95px;
+          height: 89px;
+        }
+
+        .title {
+          font-size: 25px;
+          padding: 20px 0 10px 0;
+          font-weight: 600;
+        }
+        .paragraph {
+          font-size: 20px;
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+    .box2 {
+      margin: 0 35px;
+      text-align: center;
+      .boxContent {
+        width: 280px;
+        height: 250px;
+        border: 1px solid #f1f1f1;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 12px;
+        margin-bottom: 10px;
+        img {
+          width: 95px;
+          height: 89px;
+        }
+
+        .title {
+          font-weight: 600;
+          font-size: 25px;
+          padding: 20px 0 10px 0;
+        }
+        .paragraph {
+          color: rgba(0, 0, 0, 0.5);
+          font-size: 20px;
+        }
+      }
+      .blackBtn {
+        cursor: pointer;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        color: #fff;
+        margin-top: 20px;
+        font-size: 20px;
+        width: 280px;
+        height: 110px;
+        background-color: #273747;
+      }
+    }
+
+    .boxContentRight {
+        margin-left: 21px;
+      .contentTitle {
+        font-weight: 600;
+        font-size: 40px;
+      }
+      .contentParagraph {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 20px;
+        padding: 5px 0;
+      }
+      .servicesBtn {
+          background-color: $mainColor;
+          color: #fff;
+          padding: 10px 18px;
+          border: none;
+          outline: none;
+          border-radius: 30px;
+          font-size: 16px;
+          margin-top: 25px;
+      }
+    }
+  }
+}

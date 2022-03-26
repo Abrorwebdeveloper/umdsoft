@@ -1,0 +1,51 @@
+@import './global.scss';
+
+.activities {
+    width: 85%;
+    height: calc(100vh - 90px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .content {
+        .title{
+            font-size: 39px;
+            // color: red;
+
+        }
+        .paragraph{
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 20px;
+            padding: 5px 0;
+        }
+
+        .contentBtns {
+            margin-top: 15px;
+            button{
+                border: none;
+                outline: none;
+                padding: 10px 15px;
+                border: 1px solid $mainColor;
+                border-radius: 30px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .connecting{
+                background-color: $mainColor;
+                color: #fff;
+            }
+            .detailed {
+                margin-left: 15px;
+                color: $mainColor;
+                background-color: #fff;
+            }
+        }
+    }
+
+    .contentImg {
+        width: 450px;
+        height: 350px;
+        // margin: 40px;
+    }
+}

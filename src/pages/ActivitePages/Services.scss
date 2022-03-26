@@ -1,0 +1,52 @@
+@import "../../styles/global.scss";
+
+.activitiess {
+  width: 85%;
+//   height: calc(100%-94px);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+
+  .contentImg {
+    img{
+        width: 430px;
+    height: 400px;
+    }
+    
+  }
+
+  .content {
+    .title {
+      font-size: 39px;
+    }
+    .paragraph {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 20px;
+      padding: 5px 0;
+    }
+
+    .contentBtns {
+      margin-top: 15px;
+      button {
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+        border: 1px solid $mainColor;
+        border-radius: 30px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .connecting {
+        background-color: $mainColor;
+        color: #fff;
+      }
+      .detailed {
+        margin-left: 15px;
+        color: $mainColor;
+        background-color: #fff;
+      }
+    }
+  }
+}
